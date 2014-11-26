@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="342px" height="96px" viewBox="0 0 342 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble-title</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Mobile-Phone-480px" sketch:type="MSArtboardGroup" transform="translate(-98.000000, -534.000000)" fill="#808080">
+            <g id="Group-2" sketch:type="MSLayerGroup" transform="translate(131.000000, 534.000000)">
+                <ellipse id="Oval-45" sketch:type="MSShapeGroup" cx="32" cy="30.5" rx="32" ry="30.5"></ellipse>
+                <ellipse id="Oval-46" sketch:type="MSShapeGroup" cx="154.47381" cy="53" rx="42.25" ry="39"></ellipse>
+                <ellipse id="Oval-47" sketch:type="MSShapeGroup" cx="212" cy="49" rx="27" ry="29"></ellipse>
+                <ellipse id="Oval-47" sketch:type="MSShapeGroup" cx="81.7321429" cy="56.7557725" rx="39.2678571" ry="39"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

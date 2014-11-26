@@ -1,0 +1,899 @@
+body {
+	font-family: 'Cabin Condensed', 'Arial Narrow';
+	background: #F2f2f2;
+	margin: 0;
+}
+
+.mobile-only,
+.desktop-only,
+.breakpoint {
+	display:none;
+}
+
+@media only screen and (max-width: 480px) {
+	.mobile-only {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.breakpoint {
+		display: block;
+	}
+	.desktop-only{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 841px) {
+	.breakpoint {
+		display: none;
+	}
+
+	.desktop-only {
+		display: block;
+	}
+}
+
+.container{
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h2, h4 {
+	clear:both;
+	font-family: 'Poiret One', cursive;
+	padding-top: 5px;
+	margin-bottom: 0;
+}
+
+h2{
+	font-size:35px;
+	margin: 0px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	background: rgba(74,73,74,0.95);
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+.logo {
+	float: left;
+}
+
+.main-nav{
+	margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.main-nav li {
+	float: right;
+	padding-left:10px;
+}
+
+.cs-nav {
+	display: none;
+	position: fixed;
+	width: 200px;
+	margin-left: -100px;
+	margin-top: 10px;
+	padding-left: 0;
+	top: 0;
+	left: 50%;
+	text-align: center;
+
+}
+
+.paper {
+	float: left;
+}
+
+.cs-nav ul {
+	display: none;
+	margin-top:16px;
+	padding-left:0 ;
+	background-color: #000;
+	background: rgba(74,73,74,0.80);;
+}
+
+.cs-nav ul li a {
+	display: block;
+	padding-left: 0;
+	padding-bottom: 10px;
+	margin: 0;
+}	
+
+/*Drop down menu code hovering styling*/
+.cs-nav ul li:hover a {
+	background-color: #000;
+	background: rgba(74,73,74,0.95);
+}
+
+.header a, ul li a {
+	text-decoration: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:20px;
+	color: #fff;
+	margin: 20px;
+}
+
+.title{
+	background: url(../images/forest-header.png);
+	background-size: 100% 586px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	max-width: 1500px;
+	height: 586px;
+}
+
+@media only screen and (max-width: 999px) {
+	.title{
+		background-size: cover;
+	}
+}
+
+.title strong {
+	font-family: 'Poiret One', cursive;
+	font-size:65px;
+}
+
+.title h1 {
+	background-color: #000;
+	background: rgba(74,73,74,0.95);
+	position: relative;
+	top: 391px;
+	display: inline-block;
+	color: #f2f2f2;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 0;
+}
+
+.app-solution{
+	float: left;
+	margin-top: -10px;
+	margin-left: 58%;
+}
+
+h1, h3 {
+	clear:both;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:20px;
+}
+
+/*--Start of Main Styling--*/
+
+p {
+	margin-top: 10px;
+}
+
+.main {
+	color: #F2F2F2;
+	/* Background Gradient*/
+	background-image: -o-linear-gradient(-89deg, #6D3911 10%, #51241B 24%, #2B0628 50%);
+	background-image: -moz-linear-gradient(-89deg, #6D3911 10%, #51241B 24%, #2B0628 50%);
+	background-image: -ms-linear-gradient(-89deg, #6D3911 10%, #51241B 24%, #2B0628 50%);
+	background-image: linear-gradient(-179deg, #6D3911 10%, #51241B 24%, #2B0628 50%);
+	padding: 0px;
+	margin-top: -107px;
+	position: relative;
+	z-index: -1;
+}
+
+/* Project Details One Line*/
+.details li {
+	float:left;
+	list-style: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:18px;
+	color: #BBBBBB;
+	color: rgba(187,187,187,0.70);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+ul.details {
+	clear:both;
+	padding-left: 0;
+	float: left;
+	margin-top: -31px;
+	width: 50%;
+}
+
+/* The Challenge*/
+.summary{
+	margin-top:50px;
+}
+
+.challenge {
+	clear: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+	width:50%;
+	box-sizing: border-box;
+}
+
+.challenge ul {
+	padding-left:15px;
+}
+
+/* Team Section */
+
+.team-all {
+	float:left;
+	width: 50%;
+	margin-top:26px;
+}
+
+.team {
+	float:left;
+	width: 50%;
+	margin-top: 5px;
+	padding-left: 5%;
+}
+
+.team-head {
+	float:left;
+	margin: 0;
+}
+
+.role {
+	float:left;
+	width: 70%;
+	margin-top: 5px;
+	padding-left: 5%;
+}
+
+/* Specific Team Alignments*/
+.team ul {
+	float: left;
+}
+
+.team li{
+	list-style: none;
+	display:inline-block;
+	width: 33.333%;
+}
+
+.left-team {
+	float:left;
+}
+
+.middle-team {
+	margin: 0 auto;
+}
+
+.right-team {
+	float:right;
+}
+
+.team span, .tools p {
+	font-size: 10px;
+	display: block;
+	text-align: center;
+}
+
+/* Start of Skills & Equipment Styling */
+
+.section{
+	margin-top:20px;
+}
+
+.skill-head{
+	margin-top:20px;
+}
+
+.skill-tool {
+	display: block;
+	margin: 0 auto;
+	max-width: 720px;
+}
+
+.arrow-right, .arrow-left {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 8px 43px;
+	padding-bottom: 30px;
+}
+
+.arrow-left{
+	background-image: url(../images/arrowL.svg);
+}
+
+.arrow-right{
+	background-image: url(../images/arrowR.svg);
+}
+
+/* Tools List */
+.tools {
+	width: 38px;
+	float:right;
+}
+
+.tools img{
+	width: 33px;
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 2px;
+}
+
+.tools li {
+	height: 38px;
+	width: 38px;
+	border-radius: 8px;
+	background: #000000;
+	border: 1px solid #D8D8D8;
+	list-style: none;
+	margin-bottom: 40px
+}
+
+.tools li:nth-child(1) p, .tools li:nth-child(1) img{
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+.tools p {
+	margin-top: 5px;
+}
+
+/* Put the tools in a row on small screen size */
+/*@media only screen and (max-width: 630px) {
+	.tools ul {
+		float:left;
+		padding-right: 20px;
+		display: inline-block;
+	}
+}*/
+
+/* Skills Hexagons */
+
+.skill-section{
+	margin-top: 30px;
+}
+
+.skills{
+	float: left;
+	width: 460px;
+	margin: 20px 0 20px 70px;
+	padding-left: 0;
+}
+
+.skills li{
+	background: url(../images/skillshape.png);
+	height: 144px;
+	width: 162px;
+	list-style: none;
+	float:left;
+	margin-left: 40px;
+	margin-bottom: 7px;
+}
+
+/* Position 3 now needs to be position 4*/
+.skills li:nth-child(2) {
+	margin-left: -35px;
+	margin-top: 76px;
+}
+
+.skills li:nth-child(3) {
+	margin-left: -36px;
+}
+
+.skills li:nth-child(4) {
+	margin-left: -35px;
+}
+
+.skills li:nth-child(5) {
+	margin-top: -150px;
+}
+
+.skills p, .cs-heading p {
+	font-family: 'Poiret One', cursive;
+	font-size:14px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+.skills img, .cs-heading img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 14px; 
+}
+
+/* Text Styling */
+.heading{
+	text-align: center;
+}
+
+/** Achievements **/
+.badge {
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.chieve, .onepersona {
+	float: left;
+	width: 33.333%;
+	padding: 0 5px 0 5px;
+	box-sizing: border-box;
+}
+
+.achievements strong {
+	color: orange;
+}
+
+.achievements img{
+	clear:both;
+	display:block;
+	margin: 0 auto;
+}
+
+.chieve p {
+	min-height: 80px;
+	padding: 0 2px;
+}
+
+/*Case Study Dig Deeper*/
+
+.dig {
+	width:100%;
+}
+
+.quotebox {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #240520;
+	padding: 60px 0;
+}
+
+.quote {
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.quote blockquote {
+	float: left;
+	width: 80%;
+	font-size: 26px;
+	font-family: 'Poiret One', cursive;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.quote img {
+	float:left;
+	padding: 10px;
+}
+
+.quote cite {
+	font-size: 10px;
+	display: block;
+	text-align: center;
+}
+
+.casestudy {
+	padding-top: 490px;
+	background: url(../images/cave.png) no-repeat 0 0;
+	background-image: url(../images/cave.png), url(../images/proof.png), linear-gradient(-180deg, #0F000B 50%, rgba(149,149,149,0.55) 83%, rgba(200,200,200,0.70) 89%, rgba(242,242,242,0.83) 100%);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% auto, auto auto, 100% 500px;
+	background-position: 0 0, 50% 260px, 0 100px;
+}
+
+/* Start of Case Study Section Stylings*/
+.cs-heading{
+	clear:both;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 863px;
+	height: 150px;
+	background: url(../images/skillheading.png);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index:1;
+}
+
+
+.head-research{
+	margin-top: -32px;
+	margin-bottom: -50px;
+}
+
+.mapjourney{
+	margin-top: -74px;
+	margin-bottom: 40px;
+}
+
+.design{
+	margin-top: 50px;
+}
+
+.proto{
+	margin-top:-73px;
+}
+
+.research ul, .insights ul {
+	padding-left: 18px;
+}
+
+.research {
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+}
+
+.research h3, .insights h3 {
+	text-align: center;
+}
+
+.insights {
+	float:right;
+	width: 40%;
+	box-sizing: border-box;
+}
+
+/* Interviews */
+.central {
+	margin-top: -50px;
+	margin-right: 40%;
+	margin-bottom: -20px;
+	text-align: center;
+	width:200px;
+	float: right;
+}
+
+.interviews {
+	clear: both;
+	background-image: url(../images/bubbles2.svg);
+	background-size: 100% auto;
+	min-height: 480px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-top:-100px;
+}
+
+.interviews ul{
+	list-style: none;
+	padding-left: 0;
+	padding-top: 5	px;
+}
+
+.interviews ul li{
+	display: inline;
+	color:#F2F2F2;
+	font-size: 14px;
+	line-height: 20px;
+	padding-left:10px;
+}
+
+.interviews ul li:nth-child(2n) {
+	font-size: 18px;
+}
+
+.interviews ul li:nth-child(3n) {
+	font-size: 24px;
+}
+
+/* Personas */
+
+.personas{
+	margin-top: -250px;
+	margin-left: 10px;
+	height:200px;
+}
+
+.personas-title{
+	background-image: url(../images/bubble-title.svg);
+	background-repeat: repeat-x;
+	max-width: 863px;
+	height:90px;
+	color: #fff;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-right: 60px;
+	padding-left: 73px;
+	word-spacing: 230px;
+	margin: 80px 0 0 0;
+}
+
+.personas img {
+	margin: 0 auto;
+}
+
+.onepersona img {
+	padding-left:60px;
+	padding-right:60px;
+}
+
+.onepersona p{
+	text-align: center;
+}
+
+.small{
+	text-transform: uppercase;
+	color: #979797;
+	font-size: 12px;
+}
+
+/* Case Study Solution Banner*/
+.ahabox {
+	clear: both;
+	background: #63495C;
+	color: #F2F2F2;
+	padding: 20px 5% 73px 5%
+}
+
+.ahabox:after, .summary:after, .skamps:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.aha-text{
+	float: left;
+	width:40%;
+	margin-right: 5%;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.aha-steps{
+	float: left;
+	margin-right: 5%;
+	box-sizing: border-box;
+}
+
+.aha-steps ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+.funnel{
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.funnel li {
+	list-style: none;
+	position: absolute;
+}
+
+.funnel li:nth-child(1) {
+	left: 80px;
+	bottom: 190px;
+	color: #000;
+	text-align: center;
+}
+
+.funnel li:nth-child(2) {
+	left: 90px;
+	bottom: 110px;
+	color: #fff;
+	text-align: center;
+}
+
+.funnel li:nth-child(3) {
+	left: 116px;
+	bottom: 40px;
+	text-align: center;
+}
+
+/*User Journey Mapping Styling*/
+
+.map img {
+	width:100%;
+	float: left;
+}
+
+.map h2{
+	float: right;
+	margin-top: -290px;
+}
+
+/*Sketching Section*/
+
+.skamps{
+	background-image: url(../images/sketching.png);
+	background-size: 100% auto;
+	background-position: 0 0;
+	margin-top: -78px;
+	padding-bottom: 160px;
+}
+
+.box{
+	float: left;
+	margin: 0 auto;
+	width: 400px;
+	border: #fff solid 10px;
+	background-color: #C5C5C5;
+	padding: 10px;
+}
+
+.box h3{
+	margin: 5px 0;
+}
+
+.top{
+	margin-top: 86px;
+	margin-left: 270px;
+}
+
+.must{
+	border-color: #000;
+	margin-left:80px;
+	margin-top:-20px;
+}
+
+.wont{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.should{
+	border-color: #fff;
+	margin-top: 20px;
+	margin-left: 50px
+}
+
+.could{
+	border-color: #000;
+	margin-left: 32px;
+	margin-top: 20px;
+}
+
+/*Prototyping Section*/
+
+.iteration {
+	float: left;
+	padding: 0 5px 0 5px;
+	box-sizing: border-box;	
+}
+
+.info{
+	margin-left: 10px;
+}
+
+.hand {
+	margin-bottom: -200px;
+}
+
+.wire {
+	margin-left: 240px;
+	margin-top: 10px;
+}
+
+.mock{
+	margin-top: -170px;
+	margin-left: 480px;
+}
+
+.iteration img{
+	float: left;
+}
+
+.iteration h2 {
+	clear: none;
+	float: left;
+	position: relative;
+	left: -100px;
+	background-color: #000;
+	background: rgba(74,73,74,0.95);
+	color: #f2f2f2;
+	padding: 5px 10px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.iteration h3 {
+	clear: left;
+	background-image: url(../images/cogs.svg);
+	background-position: 0, 0;
+	background-size: 99px 38px;
+	background-repeat: no-repeat;
+	padding: 5px 0px 5px 100px;
+	margin-top: 70px;
+}
+
+.iteration .info {
+	float: left;
+	width: 340px;
+}
+
+.mock .info {
+	width: 280px;
+}
+
+.iteration ul{
+	padding-left:20px;
+}
+
+.iteration a {
+	font-family: 'Cabin Condensed', 'Arial Narrow';
+	color: #000;
+	margin-left: 0;
+	font-size: 16px;
+}
+
+.iteration a:hover {
+	text-decoration: underline;
+}
+
+.iteration li{
+	line-height: 24px;
+}
+
+/* Usability Testing Section Styling */
+.testing {
+	width: 33.333%;
+	float: left;
+	margin-bottom: 100px;
+}
+
+/*Footer*/
+
+.footer{
+	background-image: url(../images/cave.png), url(../images/forest.png);
+	background-size: 100% auto, cover;
+	background-repeat: no-repeat, no-repeat;
+	height: 300px;
+	color: #fff;
+}
+
+.footer-wide{
+	clear: both;
+	background-color: #240520;
+}
+
+.footer-wide ul {
+	background-color: #000;
+	background: rgba(74,73,74,0.95);
+	list-style: none;
+	padding: 10px 0;
+	color: #fff;
+	width:100%;
+	height: 100px;
+	margin:0;
+}
+
+.footer-wide h2{
+	text-align: center;
+	padding-top: 500px;
+}
+
+.footer-wide li{
+	display: inline-block;
+	margin: auto 0;
+}
