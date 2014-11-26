@@ -798,6 +798,7 @@ ul.details {
 .mock{
 	margin-top: -170px;
 	margin-left: 480px;
+	margin-bottom:50px;
 }
 
 .iteration img{
@@ -856,6 +857,10 @@ ul.details {
 }
 
 /* Usability Testing Section Styling */
+.usability {
+	margin-top:50px;
+}
+
 .testing {
 	width: 33.333%;
 	float: left;
