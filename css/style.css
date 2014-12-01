@@ -141,12 +141,12 @@ nav a:hover{
 }
 
 .title{
-	background: url(../images/forest-header.png);
+	background: url(../images/forest-header2.png);
 	background-size: 100% 586px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	max-width: 1500px;
-	height: 586px;
+	height: 584px;
 }
 
 @media only screen and (max-width: 999px) {
@@ -164,7 +164,7 @@ nav a:hover{
 	background-color: #000;
 	background: rgba(74,73,74,0.95);
 	position: relative;
-	top: 391px;
+	top: 387px;
 	display: inline-block;
 	color: #f2f2f2;
 	padding-left: 20px;
@@ -499,7 +499,8 @@ ul.details {
 
 .quote cite {
 	font-size: 10px;
-	display: block;
+	display: inline-block;
+	margin-top: 110px;
 	text-align: center;
 }
 
